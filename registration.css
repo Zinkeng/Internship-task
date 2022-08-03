@@ -33,45 +33,26 @@ body{
     font-family: 'Times New Roman';
 }
 
-.box1{
-    background-color: rgb(79, 79, 195);
-    width: 50%;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    height: 500px;
-    align-items: center;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 
-   
-}
 
 .box2{
     background-color: white;
-    width: 50%;
+    width: 100%;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-    height: 500px;
-    /*box-shadow: 10px 10px;*/
+    height: auto;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 
     
 }
 
-/*form{
-  
-    
-}
-
-.form1{
-   
-}*/
 
 .input{
     margin: 8px;
     width: 75%;
     height: 30px;
     border-radius: 5px;
-    margin-left:  5px; 
+    margin-left:  50px; 
 
 }
 
@@ -85,9 +66,9 @@ body{
     float: right;
     font-size: small;
     display: inline;
-    margin: 0;
+    margin-left: 90px;
     padding: 0%;
-    margin-left: 5px;
+    margin-top: 5px;
 
 }
 
@@ -103,6 +84,8 @@ button{
     text-align: center;
     border-radius: 5px;
     margin: 5px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 button:hover{
@@ -138,7 +121,7 @@ h2{
 
 .horizontal{
     display: flex;
-    flex-direction: column;
+    margin-left: 30px;
 }
 
 @media only screen and (min-width:768px) {
@@ -187,7 +170,23 @@ h2{
     }
 
     .item2{
-        width: 100%;
+        width: 55%;
+    }
+
+    .box1{
+        background-color: rgb(79, 79, 195);
+        width: 50%;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        height:590px;
+        align-items: center;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    
+       
+    }
+
+    .box2{
+        width: 50%;
     }
   
 }
@@ -238,6 +237,22 @@ h2{
 
 .item2{
     width: 55%;
+}
+
+.box1{
+    background-color: rgb(79, 79, 195);
+    width: 50%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height:560px;
+    align-items: center;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+   
+}
+
+.box2{
+    width: 50%;
 }
 
 
@@ -300,5 +315,21 @@ h2{
 
     .item2{
         width: 55%;
+    }
+
+    .box1{
+        background-color: rgb(79, 79, 195);
+        width: 50%;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        height:88%;
+        align-items: center;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    
+       
+    }
+
+    .box2{
+        width: 50%;
     }
 }
