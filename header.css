@@ -1,10 +1,97 @@
-* {
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(129, 129, 211);
+
+}
+
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 50px auto;
+ 
+
+  float: right;
+  background-image: linear-gradient(to right,#ffff00,  #b3b300,#cccc00,  #ffff33,  #ffff4d);
+ 
+  height:15vh;
+
+
+}
+
+/*.navbar {
+  list-style-type: none;
+  float: right;
+  background-image: linear-gradient(
+    yellow,
+    rgb(232, 209, 34),
+    rgb(245, 237, 81)
+  );
+  width: 100%;
+  text-align: right;
+  border: 1px solid black;
+}*/
+
+.navbar input[type="radio"]{
+  display: none;
+}
+.navbar label{
+  padding: 25px;
+  font-weight: bold;
+  color: black;
+  float: right;
+  text-align: right;
+  
+}
+
+.navbar label:hover{
+  background: white;
+  color: black;
+  border-top:5px solid green;
+}
+
+.navbar .tab{
+  width: 100%;
+  padding:20px;
+  order: 1;
+  display: none;
+ background-color: white;
+
+
+}
+
+.navbar input[type="radio"]:checked + label + .tab{
+  display: block;
+}
+
+.navbar input[type="radio"]:checked + label{
+
+}
+P{
+  color: black;
+
+}
+
+h2{
+  color: black;
+}
+
+/*******************************************REGISTRATION CSS******************************************************/
+
+/*******************************************REGISTRATION CSS END******************************************************/
+
+
+
+
+/* {
   margin: 0;
   padding: 0;
 
   font-family: "Times New Roman", Times;
   font-size: 16px;
 }
+
+
 
 .navbar {
   justify-content: right;
@@ -26,8 +113,8 @@
   }
   
 
-.navbar ul {
-  list-style-type: none;
+.navbar {
+  /*list-style-type: none;
   float: right;
   background-image: linear-gradient(
     yellow,
@@ -90,6 +177,4 @@
   #register{
     background-color: black;
     color: yellow;
-  }
-
-  
+  }*/
